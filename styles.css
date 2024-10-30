@@ -26,10 +26,12 @@ header {
     justify-content: space-between;
 }
 
+
 .logo {
     font-size: 45px;
     font-weight: 600;
 }
+
 
 nav {
     display: flex;
@@ -155,6 +157,7 @@ main {
     color: black;
     background: transparent;
 }
+
 
 .second-btn:hover {
     background-color: black;
