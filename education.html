@@ -6,8 +6,159 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <title>Education</title>
+    <style>
+        body {
+            background: url(images/education_image.jpg);
+        }
+        h1{
+            color:blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        }
+       body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.portfolio-container {
+    max-width: 1200rem;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.results-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.result-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:nth-child(even) {
+    background-color: #f1f1f1;
+}
+    </style>
 </head>
 <body>
-    
+<div class="portfolio-container">
+    <header>
+        <h1> Academic Portfolio</h1>
+        <p>Welcome to my academic portfolio. Here are my results from Matric, Intermediate, and Graduation.</p>
+    </header>
+
+    <section class="results-section">
+        <div class="result-card">
+            <h2>10th Grade Results</h2>
+            <table>
+                <tr>
+                    <td>School/College Name</td>
+                    <td>St. Mary's English High School</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td>2017-2018</td>
+                </tr>
+                <tr>
+                    <td>Board / University</td>
+                    <td>CBSE</td>
+                </tr>
+                <tr>
+                    <td>Percentage</td>
+                    <td>80.80%</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="result-card">
+            <h2>12th Grade Results</h2>
+            <table>
+                <tr>
+                    <td>School/College Name</td>
+                    <td>S S Mahavir mundeswari High school</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td>2019-21</td>
+                </tr>
+                <tr>
+                    <td>Board / University</td>
+                    <td>BSEB</td>
+                </tr>
+                <tr>
+                    <td>Percentage</td>
+                    <td>86.20%</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="result-card">
+            <h2>Graduation Results</h2>
+            <table>
+                <tr>
+                    <td>Qualification</td>
+                    <td>Bachelors of Business Administration</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td>2021-2024</td>
+                </tr>
+                <tr>
+                    <td>Board / University</td>
+                    <td>Chaudhary Charan Singh
+                    University</td>
+                </tr>
+                <tr>
+                    <td>Percentage</td>
+                    <td>72.15%</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</div>
 </body>
 </html>
