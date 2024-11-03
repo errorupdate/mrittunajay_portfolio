@@ -21,10 +21,10 @@
                 <li><a href="stk.html">Skill & Strength</a></li>
             
         </nav>
-        <div class="account-btn">
+        <!-- <div class="account-btn">
             <span>Account</span>
             <a class="menu-icon"href="#"><i class='bx bx-menu'></i></a>
-        </div>
+        </div> -->
     </header>
     <main>
         <img class="profile"src="images/mritunjay kumar.jpeg" alt="my_image">
@@ -35,8 +35,9 @@
             organization. Eager to apply my knowledge and skills in marketing, sales, and digital marketing to drive growth and
             innovation. </p>
             <div class="btn-box">
-               <button class="btn first-btn">Download CV</button>
-               <button class="btn second-btn">Hire Me</button>
+            <button class="btn first-btn" id="download-btn">Download CV</button>
+            <!-- <a href="path/to/yourfile.pdf" class="button" download>Download PDF</a> -->
+               <!-- <button class="btn second-btn">Hire Me</button> -->
             </div>
         </div>
     </main>
@@ -50,6 +51,12 @@
         </div>
 
     </div>
+    <script>
+        document.getElementById('download-btn').addEventListener('click', function () {
+            // Replace 'path/to/your_cv.pdf' with the actual path to your CV file
+            window.location.href = "images/mritunjay cv-1-1.pdf";
+        });
+    </script>
 </body>
 
 </html>
